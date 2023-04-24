@@ -9,7 +9,7 @@ const FieldValue = require('firebase-admin').firestore.FieldValue;
 const { initializeApp, cert } = require("firebase-admin/app");
 const { getFirestore } = require("firebase-admin/firestore");
 
-var serviceAccount = require("./serviceAccountkey.json");
+var serviceAccount = require("./serviceAccountKey.json");
 const { name } = require('ejs');
 
 initializeApp ({
